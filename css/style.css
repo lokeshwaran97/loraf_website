@@ -591,13 +591,6 @@ ul {
   gap: 24px;
 }
 
-.footer__brand img {
-  height: 36px;
-  width: auto;
-  margin: 0 auto 8px;
-  filter: brightness(0) invert(1);
-}
-
 .footer__brand p {
   font-size: 0.9rem;
 }
