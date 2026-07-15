@@ -4,7 +4,7 @@ Marketing site for **Loraf Intelligence Private Ltd** — automation, robotics, 
 
 Built with **Vite + React + TypeScript**.
 
-## Local Development
+## Local Developments
 
 ```bash
 npm install
