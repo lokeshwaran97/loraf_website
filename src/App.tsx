@@ -1,27 +1,12 @@
-import { About } from './components/About'
-import { Analytics } from './components/Analytics'
-import { Contact } from './components/Contact'
-import { CtaBanner } from './components/CtaBanner'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { Hero } from './components/Hero'
-import { Seo } from './components/Seo'
-import { Services } from './components/Services'
+import { Route, Routes } from 'react-router-dom'
+import { HomePage } from './pages/HomePage'
+import { PrescriptionReaderPage } from './pages/PrescriptionReaderPage'
 
 export default function App() {
   return (
-    <>
-      <Seo />
-      <Analytics />
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Services />
-        <CtaBanner />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/products/prescription-reader" element={<PrescriptionReaderPage />} />
+    </Routes>
   )
 }
