@@ -8,6 +8,18 @@ export type Service = {
 export const services: Service[] = [
   {
     number: '01',
+    title: 'Simulation Consulting',
+    description:
+      'Expert simulation consulting with ROS 2 and NVIDIA Isaac Sim. We help you build, test, and validate robotic systems in high-fidelity digital twin environments prior to hardware procurement—accelerating development while reducing cost and risk from repeated physical prototyping.',
+    items: [
+      'ROS 2 & Isaac Sim integration',
+      'Digital twin & scenario setup',
+      'Simulated robot testing & validation',
+      'Lower cost vs. repeated physical trials',
+    ],
+  },
+  {
+    number: '02',
     title: 'Automation',
     description:
       'Industrial and process automation that streamlines operations, reduces manual effort, and improves reliability across production and business workflows.',
@@ -19,7 +31,7 @@ export const services: Service[] = [
     ],
   },
   {
-    number: '02',
+    number: '03',
     title: 'Robotics',
     description:
       'Design, development, and deployment of robotic systems including autonomous mobile robots, robotic arms, and custom hardware for industrial and commercial use.',
@@ -31,7 +43,7 @@ export const services: Service[] = [
     ],
   },
   {
-    number: '03',
+    number: '04',
     title: 'Artificial Intelligence',
     description:
       'Intelligent software powered by machine learning, deep learning, and computer vision to analyze data, recognize patterns, and support autonomous decisions.',
@@ -43,7 +55,7 @@ export const services: Service[] = [
     ],
   },
   {
-    number: '04',
+    number: '05',
     title: 'Software Engineering',
     description:
       'End-to-end software design and development—from application backends and APIs to operator-facing products and reliable system integrations.',
