@@ -34,6 +34,7 @@ export function Seo() {
       '@type': 'PostalAddress',
       streetAddress: contactInfo.addressSchema.streetAddress,
       addressLocality: contactInfo.addressSchema.addressLocality,
+      addressRegion: contactInfo.addressSchema.addressRegion,
       postalCode: contactInfo.addressSchema.postalCode,
       addressCountry: contactInfo.addressSchema.addressCountry,
     },

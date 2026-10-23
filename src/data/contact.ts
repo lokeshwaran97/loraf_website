@@ -5,15 +5,15 @@ export const contactInfo = {
     { display: '+91 88709 72470', href: 'tel:+918870972470' },
   ],
   addressLines: [
-    'Dr. No. 6, Karunanithi Nagar,',
-    'Poongothai Nagar Extension,',
-    'Civil Aerodrome Post, Chitra,',
-    'Kalapatti, Coimbatore – 641014',
+    '7, Muthaiah Pillai Layout,',
+    'Udumalaipettai, Tiruppur,',
+    'Tamil Nadu, India – 642126',
   ],
   addressSchema: {
-    streetAddress: 'Dr. No. 6, Karunanithi Nagar, Poongothai Nagar Extension, Civil Aerodrome Post, Chitra, Kalapatti',
-    addressLocality: 'Coimbatore',
-    postalCode: '641014',
+    streetAddress: '7, Muthaiah Pillai Layout, Udumalaipettai',
+    addressLocality: 'Tiruppur',
+    addressRegion: 'Tamil Nadu',
+    postalCode: '642126',
     addressCountry: 'IN',
   },
 }
