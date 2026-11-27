@@ -13,6 +13,10 @@ export function DataRetentionPolicyPage() {
           name="description"
           content="Data Retention Policy for Loraf Intelligence Private Limited — how long we keep personal data and how deletion works."
         />
+        <link rel="canonical" href="https://www.lorafintel.com/data-retention-policy" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.lorafintel.com/data-retention-policy" />
+        <meta property="og:title" content="Data Retention Policy | Loraf Intelligence" />
       </Helmet>
       <Header />
       <main className="legal-page">
@@ -22,7 +26,7 @@ export function DataRetentionPolicyPage() {
           </p>
           <h1>Data Retention Policy</h1>
           <p className="legal-page__meta">
-            {SITE_LEGAL_NAME} · Effective date: October 28, 2026
+            {SITE_LEGAL_NAME} · Effective date: November 27, 2026
           </p>
 
           <section>
@@ -47,7 +51,7 @@ export function DataRetentionPolicyPage() {
                 <a href="mailto:info@lorafintel.com">info@lorafintel.com</a>
               </li>
               <li>
-                <strong>Effective date:</strong> October 28, 2026
+                <strong>Effective date:</strong> November 27, 2026
               </li>
             </ul>
           </section>
@@ -98,6 +102,16 @@ export function DataRetentionPolicyPage() {
                     <td>Clients&apos; contact details</td>
                     <td>Names and phone numbers you upload to message clients</td>
                     <td>While needed to send messages you request and while your account is active; deleted or anonymised within 30 days of account closure or deletion request</td>
+                  </tr>
+                  <tr>
+                    <td>Gym member records</td>
+                    <td>Date of birth, membership plan, fee and payment status, attendance</td>
+                    <td>While your account is active; deleted or anonymised within 30 days of account closure or deletion request</td>
+                  </tr>
+                  <tr>
+                    <td>Employee payslip records</td>
+                    <td>Employee name, phone number, salary and deduction details</td>
+                    <td>While your account is active, or longer only where tax or labour law requires; then deleted within 30 days</td>
                   </tr>
                   <tr>
                     <td>Message records</td>
