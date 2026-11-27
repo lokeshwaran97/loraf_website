@@ -13,6 +13,10 @@ export function PrivacyPolicyPage() {
           name="description"
           content="Privacy Policy for Loraf Intelligence Private Limited — how we collect, use, and protect personal data."
         />
+        <link rel="canonical" href="https://www.lorafintel.com/privacy-policy" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.lorafintel.com/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy | Loraf Intelligence" />
       </Helmet>
       <Header />
       <main className="legal-page">
@@ -22,7 +26,7 @@ export function PrivacyPolicyPage() {
           </p>
           <h1>Privacy Policy</h1>
           <p className="legal-page__meta">
-            {SITE_LEGAL_NAME} · Effective date: October 28, 2026
+            {SITE_LEGAL_NAME} · Effective date: November 27, 2026
           </p>
 
           <section>
@@ -46,7 +50,7 @@ export function PrivacyPolicyPage() {
                 <a href="mailto:info@lorafintel.com">info@lorafintel.com</a>
               </li>
               <li>
-                <strong>Effective date:</strong> October 28, 2026
+                <strong>Effective date:</strong> November 27, 2026
               </li>
             </ul>
             <p>
@@ -74,13 +78,23 @@ export function PrivacyPolicyPage() {
                 and only to send the messages you request.
               </li>
               <li>
+                <strong>Gym member records you add:</strong> date of birth, membership plan, fee due
+                dates and payment status, and attendance records, used to send fee reminders, payment
+                receipts, attendance reports and birthday greetings.
+              </li>
+              <li>
+                <strong>Employee records you add:</strong> name, phone number and payslip details
+                (such as salary and deductions), used only to deliver payslips to that employee.
+              </li>
+              <li>
                 <strong>Message records:</strong> basic technical records of messages sent through
                 the application, such as time sent and delivery status.
               </li>
             </ul>
             <p>
-              We do not intentionally collect sensitive personal data such as payment card details,
-              government ID numbers, or health information.
+              We do not collect payment card details, government ID numbers or health information.
+              Salary information in payslips is stored only to deliver them to the employee, and
+              access to it is restricted.
             </p>
           </section>
 
@@ -135,8 +149,9 @@ export function PrivacyPolicyPage() {
                 deliver messages.
               </li>
               <li>
-                <strong>Service providers:</strong> hosting, storage and email providers that help
-                us run the application, bound by confidentiality obligations.
+                <strong>Service providers:</strong> Amazon Web Services (hosting and database, India
+                region) and email providers that help us run the application, bound by
+                confidentiality obligations.
               </li>
               <li>
                 <strong>Legal requirements:</strong> where a court, government authority or law

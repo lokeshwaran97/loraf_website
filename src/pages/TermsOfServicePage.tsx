@@ -13,6 +13,10 @@ export function TermsOfServicePage() {
           name="description"
           content="Terms of Service for Loraf Intelligence Private Limited — rules for using our application and related services."
         />
+        <link rel="canonical" href="https://www.lorafintel.com/terms-of-service" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.lorafintel.com/terms-of-service" />
+        <meta property="og:title" content="Terms of Service | Loraf Intelligence" />
       </Helmet>
       <Header />
       <main className="legal-page">
@@ -22,7 +26,7 @@ export function TermsOfServicePage() {
           </p>
           <h1>Terms of Service</h1>
           <p className="legal-page__meta">
-            {SITE_LEGAL_NAME} · Effective date: October 28, 2026
+            {SITE_LEGAL_NAME} · Effective date: November 27, 2026
           </p>
 
           <section>
@@ -41,17 +45,23 @@ export function TermsOfServicePage() {
               not use the Service.
             </p>
             <p>
-              <strong>Effective date:</strong> October 28, 2026
+              <strong>Effective date:</strong> November 27, 2026
             </p>
           </section>
 
           <section>
             <h2>2. The Service</h2>
             <p>
-              The Service lets you log in to our application, connect your WhatsApp Business account
-              through WhatsApp Embedded Signup, and send WhatsApp messages to your own clients. We may
-              improve, change or discontinue features at any time, and we will try to give notice of
-              major changes.
+              The Service is a business management application (including a CRM for gyms and
+              fitness centres) that lets you log in, manage your clients and staff, connect your
+              WhatsApp Business account through WhatsApp Embedded Signup, and send WhatsApp messages
+              such as fee reminders, receipts, attendance reports, greetings and payslips to your own
+              clients and employees. We may improve, change or discontinue features at any time, and
+              we will try to give notice of major changes.
+            </p>
+            <p>
+              WhatsApp message charges are billed by Meta directly to the payment method you add in
+              your WhatsApp Business account. Loraf does not pay or collect these charges.
             </p>
           </section>
 
